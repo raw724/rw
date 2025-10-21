@@ -16,6 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         
         {/* Route 2: Goal Details page */}
         <Route path="/goal-details" element={<GoalDetails />} />
+
+        <Route path="/project/:slug" element={<ProjectDetails />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
