@@ -17,7 +17,7 @@ const detailedProjectData = projectsData.map(p => {
     if (p.slug === 'sailing') {
         return {
             ...p,
-            details: 'Sailing competitively requires precision, quick decision-making, and deep technical knowledge of boat tuning and aerodynamics. Competing in high-performance classes allows me to apply critical thinking and teamwork under intense pressure.',
+            details: 'Sailing competitively requires precision, quick decision-making, and deep technical knowledge of boat tuning and aerodynamics. Competing in high-performance classes allows me to apply critical thinking and teamwork under intense pressure. My sister and I have achieved significant national rankings.',
             imgUrl: 'https://placehold.co/1200x400/06b6d4/0b1220?text=COMPETITIVE+SAILING', 
             tags: ['Teamwork', 'Strategy', 'Technical']
         };
@@ -25,7 +25,7 @@ const detailedProjectData = projectsData.map(p => {
     if (p.slug === 'tech') {
         return {
             ...p,
-            details: 'This portfolio itself is an ongoing technical project, built using Vite, React, and Tailwind CSS. My other projects focus on using modern JavaScript frameworks to solve real-world problems and enhance user experiences. Currently exploring serverless functions and database integration.',
+            details: 'This portfolio itself is an ongoing technical project, built using Vite, React, and Tailwind CSS. My other projects focus on using modern JavaScript frameworks to solve real-world problems and enhance user experiences. Currently exploring serverless functions and database integration to build scalable applications.',
             imgUrl: 'https://placehold.co/1200x400/1e293b/e2e8f0?text=TECHNICAL+INITIATIVES', 
             tags: ['React', 'Web Development', 'UI/UX']
         };
