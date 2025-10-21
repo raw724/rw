@@ -10,7 +10,7 @@ const detailedProjectData = projectsData.map(p => {
         return {
             ...p,
             details: 'Hyrox is a fitness race for everybody. It combines functional exercises with running, testing both endurance and strength. My training involves a rigorous combination of HIIT, lifting, running and perfecting the specialized functional movements for the event.',
-            imgUrl: 'hyrox.jpg', 
+            imgUrl: '/public/hyrox.jpg', 
             tags: ['Fitness', 'Endurance', 'Challenge']
         };
     }
@@ -18,7 +18,7 @@ const detailedProjectData = projectsData.map(p => {
         return {
             ...p,
             details: 'Sailing competitively requires precision, quick decision-making, and deep technical knowledge of how to keep the boat cruising flat on the water; because a flat boat is a fast boat. Competing in high-performance classes allows me to apply critical thinking and teamwork under intense pressure. My sister and I have competed on national, european and world stages in the Hobie 16 category.',
-            imgUrl: 'sailing.jpg', 
+            imgUrl: '/public/sailing.jpg', 
             tags: ['Teamwork', 'Strategy', 'Technical']
         };
     }
@@ -26,7 +26,7 @@ const detailedProjectData = projectsData.map(p => {
         return {
             ...p,
             details: 'This portfolio itself is an ongoing technical project, built using Vite, React, and Tailwind CSS. My other project area of interest has focused on using Python to solve real-world problems and enhance user experiences. For example, I created a machine learning and AI based program to predict the likelyhood of rain, depending on historical data.',
-            imgUrl: 'raincheck.png', 
+            imgUrl: '/public/raincheck.png', 
             tags: ['Python', 'Web Development', 'Machine Learning']
         };
     }
