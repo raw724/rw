@@ -13,7 +13,7 @@ export default function Navbar({ theme, setTheme }) {
         </div>
         <nav className="hidden md:flex items-center gap-6">
           <a href="#about">About</a>
-          <a href="#projects">Projects</a>
+          <a href="#projects">Pursuits</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
           <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="btn btn-ghost">
