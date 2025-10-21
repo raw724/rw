@@ -32,7 +32,12 @@ export default function Hero() {
             </h3>
             
             <p className="text-xl font-bold text-[--text] mt-2 max-w-xs mx-auto">
-              Red Bull Student Marketeer • This job was made for me
+              Red Bull Student Marketeer
+            </p>
+            
+            {/* Slightly enlarged the supporting line */}
+            <p className="text-[--muted] text-base mt-2 max-w-xs mx-auto">
+              This job was made for me
             </p>
             
             {/* 3. CALL TO ACTION */}
