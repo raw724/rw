@@ -31,7 +31,7 @@ export default function Hero() {
                 MY NEXT GOAL 🚀
             </h3>
             
-            <p className="text-[--muted] text-sm mt-2 max-w-xs mx-auto">
+            <p className="text-xl font-bold text-[--text] mt-2 max-w-xs mx-auto">
               Red Bull Student Marketeer • This job was made for me
             </p>
             
