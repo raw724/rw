@@ -1,9 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // 1. Import Link for navigation
 
-const projects = [
-  { title: 'Hyrox', desc: 'Vigorously training in prepartion for my first of many Hyrox events in Manchester, January'},
-  { title: 'High Perfomance Sailing', desc: 'Sailing competitively on a national and world stage with my sister; yes, my sister, eek!'},
-  { title: 'Technical Projects', desc: 'I enjoy working on techincal projects on new exciting initiatives; just like this website.'}
+// RENAME and EXPORT the data array so the new ProjectDetails component can access it.
+export const projectsData = [
+  // 2. Add 'slug' property for use in the URL
+  { id: 1, title: 'Hyrox', slug: 'hyrox', desc: 'Vigorously training in preparation for my first of many Hyrox events in Manchester, January', tech: 'Fitness, Endurance, Discipline'},
+  { id: 2, title: 'High Perfomance Sailing', slug: 'sailing', desc: 'Sailing competitively on a national and world stage with my sister; yes, my sister, eek!', tech: 'Strategy, Teamwork, Technical Skill'},
+  { id: 3, title: 'Technical Projects', slug: 'tech', desc: 'I enjoy working on technical projects on new exciting initiatives; just like this website.', tech: 'React, Tailwind CSS, Vite'}
 ];
 
 export default function Projects() {
@@ -11,12 +14,20 @@ export default function Projects() {
     <section id="projects" className="py-16">
       <h3 className="text-2xl font-bold mb-6">Personal Pursuits</h3>
       <div className="grid md:grid-cols-3 gap-6">
-        {projects.map((p, i) => (
-          <div key={i} className="glass p-6">
+        {projectsData.map((p, i) => (
+          // 3. Replace <div> with <Link> and set the dynamic destination
+          <Link 
+            key={i} 
+            to={`/project/${p.slug}`} // Links to dynamic path: /project/hyrox
+            // Apply card styling and make it look clickable
+            className="glass p-6 block cursor-pointer hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+          >
             <h4 className="font-semibold">{p.title}</h4>
             <p className="text-[--muted] mt-2">{p.desc}</p>
             <p className="text-sm mt-2">{p.tech}</p>
-          </div>
+            {/* Add a visual cue to indicate this navigates */}
+            <span className="text-sm text-[--accent-to] mt-3 block font-semibold">Read More &rarr;</span>
+          </Link>
         ))}
       </div>
     </section>
