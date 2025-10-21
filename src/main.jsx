@@ -5,6 +5,7 @@ import App from './App.jsx';
 import './index.css';
 import GoalDetails from './components/GoalDetails.jsx';
 import ProjectDetails from './components/ProjectDetails.jsx'; // NEW IMPORT
+import Projects from './components/Projects.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
