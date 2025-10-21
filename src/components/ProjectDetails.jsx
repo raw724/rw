@@ -9,7 +9,7 @@ const detailedProjectData = projectsData.map(p => {
     if (p.slug === 'hyrox') {
         return {
             ...p,
-            details: 'Hyrox is a fitness race for everybody. It combines functional exercises with running, testing both endurance and strength. My training involves a rigorous combination of HIIT, lifting, and specialized functional movements to ensure peak performance for the event.',
+            details: 'Hyrox is a fitness race for everybody. It combines functional exercises with running, testing both endurance and strength. My training involves a rigorous combination of HIIT, lifting, running and perfecting the specialized functional movements for the event.',
             imgUrl: 'hyrox.jpg', 
             tags: ['Fitness', 'Endurance', 'Challenge']
         };
@@ -17,7 +17,7 @@ const detailedProjectData = projectsData.map(p => {
     if (p.slug === 'sailing') {
         return {
             ...p,
-            details: 'Sailing competitively requires precision, quick decision-making, and deep technical knowledge of boat tuning and aerodynamics. Competing in high-performance classes allows me to apply critical thinking and teamwork under intense pressure. My sister and I have competed on national, european and world stages in the Hobie 16 category.',
+            details: 'Sailing competitively requires precision, quick decision-making, and deep technical knowledge of how to keep the boat cruising flat on the water; because a flat boat is a fast boat. Competing in high-performance classes allows me to apply critical thinking and teamwork under intense pressure. My sister and I have competed on national, european and world stages in the Hobie 16 category.',
             imgUrl: 'sailing.jpg', 
             tags: ['Teamwork', 'Strategy', 'Technical']
         };
