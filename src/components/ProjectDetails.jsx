@@ -19,7 +19,7 @@ const detailedProjectData = projectsData.map(p => {
             ...p,
             details: 'Sailing competitively requires precision, quick decision-making, and deep technical knowledge of how to keep the boat cruising flat on the water; because a flat boat is a fast boat. Competing in high-performance classes allows me to apply critical thinking and teamwork under intense pressure. My sister and I have competed on national, european and world stages in the Hobie 16 category.',
             imgUrl: '/images/sailing.jpg', 
-            tags: ['Teamwork', 'Strategy', 'Technical']
+            tags: ['Teamwork', 'Strategy', 'Technical Skill']
         };
     }
     if (p.slug === 'tech') {
