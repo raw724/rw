@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App.jsx';
 import './index.css';
 import GoalDetails from './components/GoalDetails.jsx';
+import ProjectDetails from './ProjectDetails.jsx'; // NEW IMPORT
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
