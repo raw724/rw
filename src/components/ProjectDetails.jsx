@@ -10,7 +10,7 @@ const detailedProjectData = projectsData.map(p => {
         return {
             ...p,
             details: 'Hyrox is a fitness race for everybody. It combines functional exercises with running, testing both endurance and strength. My training involves a rigorous combination of HIIT, lifting, and specialized functional movements to ensure peak performance for the event.',
-            imgUrl: 'https://placehold.co/1200x400/7c3aed/ffffff?text=HYROX+TRAINING+LOG', 
+            imgUrl: 'hyrox.jpg', 
             tags: ['Fitness', 'Endurance', 'Challenge']
         };
     }
@@ -18,7 +18,7 @@ const detailedProjectData = projectsData.map(p => {
         return {
             ...p,
             details: 'Sailing competitively requires precision, quick decision-making, and deep technical knowledge of boat tuning and aerodynamics. Competing in high-performance classes allows me to apply critical thinking and teamwork under intense pressure. My sister and I have achieved significant national rankings.',
-            imgUrl: 'https://placehold.co/1200x400/06b6d4/0b1220?text=COMPETITIVE+SAILING', 
+            imgUrl: 'sailing.jpg', 
             tags: ['Teamwork', 'Strategy', 'Technical']
         };
     }
@@ -26,8 +26,8 @@ const detailedProjectData = projectsData.map(p => {
         return {
             ...p,
             details: 'This portfolio itself is an ongoing technical project, built using Vite, React, and Tailwind CSS. My other projects focus on using modern JavaScript frameworks to solve real-world problems and enhance user experiences. Currently exploring serverless functions and database integration to build scalable applications.',
-            imgUrl: 'https://placehold.co/1200x400/1e293b/e2e8f0?text=TECHNICAL+INITIATIVES', 
-            tags: ['React', 'Web Development', 'UI/UX']
+            imgUrl: 'raincheck.png', 
+            tags: ['Python', 'Web Development', 'Machine Learning']
         };
     }
     return p;
