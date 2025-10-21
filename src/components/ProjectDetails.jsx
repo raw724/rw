@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { projectsData } from '../Projects.jsx'; 
+import { projectsData } from './Projects.jsx'; 
 
 // Extend the data with detailed content
 const detailedProjectData = projectsData.map(p => {
