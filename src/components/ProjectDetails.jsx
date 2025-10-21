@@ -11,7 +11,7 @@ const detailedProjectData = projectsData.map(p => {
             ...p,
             details: 'Hyrox is a fitness race for everybody. It combines functional exercises with running, testing both endurance and strength. My training involves a rigorous combination of HIIT, lifting, running and perfecting the specialized functional movements for the event.',
             imgUrl: '/images/hyrox.jpg', 
-            tags: ['Fitness', 'Endurance', 'Challenge']
+            tags: ['Fitness', 'Endurance', 'Discipline']
         };
     }
     if (p.slug === 'sailing') {
