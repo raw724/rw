@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1220;
+  --text: #e6eef8;
+  --muted: rgba(230, 238, 248, 0.65);
+  --accent-from: #06b6d4;
+  --accent-to: #7c3aed;
+}
+
+.light {
+  --bg: #f7f8fb;
+  --text: #0b1220;
+  --muted: rgba(11, 18, 32, 0.6);
+}
+
+html, body, #root { height: 100%; }
+body {
+  background: radial-gradient(1000px 500px at 20% 10%, rgba(124, 58, 237, 0.08), transparent 70%),
+              radial-gradient(1000px 500px at 80% 90%, rgba(6, 182, 212, 0.08), transparent 70%),
+              var(--bg);
+  color: var(--text);
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.glass {
+  border-radius: 1rem;
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+}
+
+/* Light mode holographic glass */
+.light .glass {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(180, 180, 200, 0.4);
+  box-shadow:
+    0 0 20px rgba(124, 58, 237, 0.08),
+    0 0 40px rgba(6, 182, 212, 0.06);
+}
+
+/* Dark mode glass (you already had this style) */
+:not(.light) .glass {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow:
+    0 0 25px rgba(124, 58, 237, 0.15),
+    inset 0 0 20px rgba(255, 255, 255, 0.02);
+}
+
+/* Optional hover shimmer */
+.glass:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 0 25px rgba(124, 58, 237, 0.25),
+    0 0 35px rgba(6, 182, 212, 0.15);
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, var(--accent-from), var(--accent-to));
+  color: white;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-ghost {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: transparent;
+  color: var(--text);
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
