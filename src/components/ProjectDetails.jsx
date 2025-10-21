@@ -17,7 +17,7 @@ const detailedProjectData = projectsData.map(p => {
     if (p.slug === 'sailing') {
         return {
             ...p,
-            details: 'Sailing competitively requires precision, quick decision-making, and deep technical knowledge of boat tuning and aerodynamics. Competing in high-performance classes allows me to apply critical thinking and teamwork under intense pressure. My sister and I have achieved significant national rankings.',
+            details: 'Sailing competitively requires precision, quick decision-making, and deep technical knowledge of boat tuning and aerodynamics. Competing in high-performance classes allows me to apply critical thinking and teamwork under intense pressure. My sister and I have competed on national, european and world stages in the Hobie 16 category.',
             imgUrl: 'sailing.jpg', 
             tags: ['Teamwork', 'Strategy', 'Technical']
         };
@@ -25,7 +25,7 @@ const detailedProjectData = projectsData.map(p => {
     if (p.slug === 'tech') {
         return {
             ...p,
-            details: 'This portfolio itself is an ongoing technical project, built using Vite, React, and Tailwind CSS. My other projects focus on using modern JavaScript frameworks to solve real-world problems and enhance user experiences. Currently exploring serverless functions and database integration to build scalable applications.',
+            details: 'This portfolio itself is an ongoing technical project, built using Vite, React, and Tailwind CSS. My other project area of interest has focused on using Python to solve real-world problems and enhance user experiences. For example, I created a machine learning and AI based program to predict the likelyhood of rain, depending on historical data.',
             imgUrl: 'raincheck.png', 
             tags: ['Python', 'Web Development', 'Machine Learning']
         };
