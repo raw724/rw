@@ -89,8 +89,7 @@ export default function ProjectDetails() {
                         ))}
                     </div>
 
-                    <h3 className="text-xl font-bold mt-6 mb-3">URL Slug</h3>
-                    <p className="font-mono text-sm text-[--accent-from] p-2 bg-gray-700/10 rounded-lg overflow-x-auto">/project/{project.slug}</p>
+                   
                 </div>
             </div>
         </section>
