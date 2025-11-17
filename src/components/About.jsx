@@ -12,8 +12,8 @@ export default function About() {
         <br></br>
         <p className="text-[--muted]">
           Me in three words? Driven, energetic, and passionate. With my experience as a school prefect throughout sixth form and my work as a Senior Sailing instructor alongside being Manager on Duty at Pizza Express,
-          I have experience in many situations. Being in two managerial roles proves my ability to work hard, motivate and support a team and represent a brand in every moment. Trusted in organizing and running sailing events and
-          school charity/parent events shows I can adapt to any scenario, work alongside a team with confidence and keep customers engaged effectively.
+          I have confidence in every situations. Being in two managerial roles proves my ability to work hard, motivate and support a team and represent a brand at every moment. Trusted in organizing and running sailing events and
+          student run charity/parent events shows I can adapt to any scenario, work alongside a team and keep customers engaged effectively.
         </p>
       </div>
     </section>
